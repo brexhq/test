@@ -6,6 +6,6 @@ metadata:
 spec:
   type: github
   targets:
-    - https://github.com/brexhq/backstage/blob/master/config/templates/golang-template.yaml
-    - https://github.com/brexhq/backstage/blob/master/config/templates/kotlin-template.yaml
-    - https://github.com/brexhq/backstage/blob/master/config/templates/elixir-template.yaml
+    - https://github.com/brexhq/backstage-config/blob/main/config/templates/golang-template.yaml
+    - https://github.com/brexhq/backstage-config/blob/main/config/templates/kotlin-template.yaml
+    - https://github.com/brexhq/backstage-config/blob/main/config/templates/elixir-template.yaml
