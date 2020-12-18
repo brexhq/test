@@ -4,7 +4,7 @@ metadata:
   name: example-components
   description: A collection of all Backstage example components
 spec:
-  type: github
+  type: url
   targets:
     - https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/components/artist-lookup-component.yaml
     - https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/components/petstore-component.yaml
