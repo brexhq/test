@@ -1,0 +1,49 @@
+apiVersion: backstage.io/v1alpha1
+kind: Template
+metadata:
+  name: elixir-starter
+  title: Elixir Microservice
+  description: Create a Elixir repo with this template
+  tags:
+    - experimental
+    - mockup
+    - elixir
+spec:
+  owner: web@example.com
+  templater: cookiecutter
+  type: service
+  path: "."
+  schema:
+    required:
+      - component_id
+      - team
+      - org
+      - working_dir
+      - command
+      - image_repo
+    properties:
+      component_id:
+        title: Name
+        type: string
+        description: Unique name of the component
+      team:
+        title: Team
+        type: string
+        description: Team associated with the component        
+      org:
+        title: Org
+        type: string
+        description: Org owning this component
+      working_dir:
+        title: Working Directory
+        type: string
+        description: The working directory to use when running the component
+      command:
+        title: Command
+        type: string
+        description: The command to execute to boostrap the component
+        default: "[\"mix\", \"svc.run\", \"rpc\"]"
+      image_repo:
+        title: Image Repository
+        type: string
+        description: The image repository
